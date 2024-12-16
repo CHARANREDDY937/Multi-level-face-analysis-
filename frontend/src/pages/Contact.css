@@ -1,0 +1,54 @@
+/* General Container */
+.contact-container {
+    
+    color: #fff;
+    text-align: center;
+    width:100vw;
+
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+    animation: fadeInDown 0.3s ease-in-out;
+  }
+  
+  .contact-description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #fff;
+  }
+  
+  /* Contact Information */
+  .contact-info {
+    list-style-type: none;
+    padding: 0;
+    width:60vw;
+    margin:auto;
+    animation: fadeInUp 0.3s ease-in-out;
+  }
+  
+  .contact-info li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    background: #fffefe;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    color: #000000;
+  }
+  
+  .contact-info li strong {
+    font-weight: 600;
+  }
+  
+  /* Hover effect for the list items */
+  .contact-info li:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+  }
+  

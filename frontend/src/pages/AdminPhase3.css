@@ -1,0 +1,103 @@
+.admin-phase3-container {
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-phase3-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.admin-phase3 {
+  font-family: Arial, sans-serif;
+  padding-top: 80px; 
+}
+
+.admin-welcome {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.admin-welcome h1 {
+  font-size: 30px;
+  color: #333;
+  animation: fadeIn 2s ease-in;
+}
+
+.admin-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.admin-button {
+  width: 220px;
+  height: 280px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+  background-color: #fff;
+  cursor: pointer;
+  border: none;
+}
+
+.admin-button:hover {
+  transform: scale(1.05);
+}
+
+.admin-button img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.admin-button h3 {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #555;
+  font-weight: 600;
+}
+
+.file-upload {
+  margin: 40px auto;
+  text-align: center;
+}
+
+.file-upload h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.file-upload input[type="file"] {
+  font-size: 16px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.file-upload p {
+  margin-top: 20px;
+  color: #555;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

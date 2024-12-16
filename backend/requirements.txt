@@ -1,0 +1,9 @@
+opencv-python
+numpy
+tensorflow
+scikit-learn
+Flask
+flask-cors
+lwcc
+pymongo
+

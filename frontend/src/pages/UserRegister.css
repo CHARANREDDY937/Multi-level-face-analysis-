@@ -1,0 +1,30 @@
+.register-container {
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width:100vw;
+}
+.register-container button{
+  width:20vw;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+.register-container button:hover{
+  background: linear-gradient(135deg, #0056b3, #3b38f7);
+}
+.register-container h2{
+  color:rgb(0, 0, 0);
+}
+.register-box {
+  background-color: rgba(255, 255, 255, 0.838);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+.register-box label{
+  color:black;
+}

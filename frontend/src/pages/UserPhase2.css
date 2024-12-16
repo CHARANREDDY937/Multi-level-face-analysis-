@@ -1,0 +1,75 @@
+/* For the main container */
+.user-phase2-container {
+  background-size: cover;
+  background-position: center; 
+  height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width:100vw;
+
+}
+
+.user-phase2-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Subtle shadow for readability */
+  z-index: 1; /* Ensures the content is on top of other elements */
+  padding: 20px; /* Adds spacing for better layout */
+  text-align: center; /* Centers text alignment */
+}
+.user-phase2-container p{
+  color:white !important;
+}
+/* Button Styles */
+button {
+  background-color: #007bff; /* Bright blue */
+  color: #fff; /* White text for contrast */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold; /* Emphasize button text */
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+  transition: all 0.3s ease; /* Smooth transition for hover/active effects */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue for hover state */
+  transform: translateY(-2px); /* Lift button slightly */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+button:active {
+  transform: translateY(0); /* Returns to original position on click */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Restores original shadow */
+}
+
+/* Navbar Styles */
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black for contrast */
+  padding: 10px;
+  text-align: center;
+  z-index: 2; /* Ensures the navbar is above the content */
+}
+
+.navbar a {
+  color: #fff; /* White text for contrast */
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #007bff; /* Bright blue for hover state */
+}

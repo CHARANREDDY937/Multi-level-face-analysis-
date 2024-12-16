@@ -1,0 +1,29 @@
+.user-phase3-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  width:100vw;
+  
+}
+
+.button-container {
+  margin: 10px 0;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.video-container {
+  margin-top: 20px;
+}
+.video-container p{
+  color:white;
+}
+img {
+  width: 40%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
